@@ -22,9 +22,21 @@ h1{
 .right_bar{
 	margin: 0;
 	width: 400px;
-	height: 600px;
+	height: 100%;
 	position: absolute;
-	right: 0px;
+	right: 20px;
 	top: 100px;
+	bottom: 100px;
 	background-color: rgba(0,0,0,0.75);
+}
+
+.bottom_bar{
+	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
+	height: 70px;
+	background-color: rgba(0,0,0,0.75);
+	position: absolute;
+	bottom: 70px;
+	width: 100%;
 }
