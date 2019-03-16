@@ -106,6 +106,29 @@ embed{
 }
 
 #operations li a:hover {
-	background:#146C9C; /* 变换背景色 */
-	color:#fff; /* 变换文字颜色 */
+	background-image: url(../img/button_hover01.png);
+	background-color: rgba(0,128,128,0.75);
+	background-repeat-x: none;
+	background-repeat-y: none;
+	background-size: contain;
+	color:#CFF; /* 变换文字颜色 */
+}
+
+#profilePhoto{
+	margin: 18px 18px;
+	height: 164px;
+	width: 164px;
+	float: left;
+	size: stretch;
+}
+
+#profileName{
+	margin: 0;
+	height: 200px;
+	padding: 20px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: "franklin gothic book";
+	font-size: 50px;
+	color: aquamarine;
 }
