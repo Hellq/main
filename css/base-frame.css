@@ -73,3 +73,12 @@ p.bottom_bar{
 	font-family: "comic sans ms";
 	font-size: 20px;
 }
+
+embed{
+	margin: 0;
+	height: 0;
+	width: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
