@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/base-frame.css" />
+		
+		<title>Message Board</title>
+	</head>
+	<body background="img/sci-fi_bg1.jpg">
+		<div class="personal_info">
+			
+		</div>
+		<div class="top_bar">
+			
+		</div>
+		<div class="right_bar">
+			
+		</div>
+		<div class="content">
+			<div id="container"></div>
+			<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+			<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+			<script>
+			var gitment = new Gitment({
+			  id: location.href, // 可选。默认为 location.href
+			  owner: 'hellq',
+			  repo: 'personalblog.shpmex.xyz',
+			  oauth: {
+			    client_id: '121c0f7645263513d612',
+			    client_secret: '487fec5b84ab958ac5a8a45c51bb0a5dbea19d51',
+			  },
+			})
+			gitment.render('container')
+			</script>
+		</div>
+		<div class="bottom_bar">
+			<ul class="bottom_bar">
+				<li><p class="bottom_bar">Powered by SHPMEX</p>
+			</ul>
+		</div>
+	</body>
+	<embed src="sound/WelcomeToTheBlogOfShpmex.wav"></embed>
+</html>
