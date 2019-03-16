@@ -79,6 +79,6 @@ embed{
 	height: 0;
 	width: 0;
 	position: absolute;
-	left: -10px;
-	bottom: -10px;
+	left: -1000px;
+	bottom: -1000px;
 }
