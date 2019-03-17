@@ -6,7 +6,6 @@
 		<link rel="stylesheet" type="text/css" href="css/base-frame.css" />
 		<link rel="stylesheet" type="text/css" href="css/message.css" />
 		<title>凌星的留言板  Message Board</title>
-		<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 	</head>
 	<body background="img/sci-fi_bg1.jpg">
 		<div class="personal_info">
@@ -40,6 +39,8 @@
 			</script>
 			-->
 			<div id="gitalk-container"></div>
+			<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+			<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 			<script type="text/javascript">
 				var gitalk = new Gitalk({
 					// gitalk的主要参数
@@ -52,7 +53,6 @@
 				});
 				gitalk.render('gitalk-container');
 			</script>
-			{% endif %}
 			<!-- Gitalk end -->
 		</div>
 		<div class="bottom_bar">
