@@ -21,7 +21,21 @@
 			</ul>
 		</div>
 		<div class="content">
-			
+			<div id="gitalk-container"></div>
+			<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+			<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+			<script type="text/javascript">
+				var gitalk = new Gitalk({
+					// gitalk的主要参数
+					clientID: '121c0f7645263513d612',
+					clientSecret: '487fec5b84ab958ac5a8a45c51bb0a5dbea19d51',
+					repo: 'github.com/hellq/main',
+					owner: 'hellq',
+					admin: ['hellq'],
+					id: location.href,
+				});
+				gitalk.render('gitalk-container');
+			</script>
 		</div>
 		<div class="bottom_bar">
 			<ul class="bottom_bar">
