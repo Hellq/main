@@ -49,7 +49,7 @@
 					repo: 'hellq.github.io',
 					owner: 'hellq',
 					admin: ['hellq'],
-					id: location.href,
+					id: md5(location.href),
 				});
 				gitalk.render('gitalk-container');
 			</script>
